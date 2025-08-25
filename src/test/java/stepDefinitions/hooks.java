@@ -10,6 +10,7 @@ public class hooks {
 	@Before("@Mortage")
 	public void mortage() {
 		System.out.println("setup the netries in mortage DB");
+		System.out.println("updated in DB");
 	}
 	 //use after also
 
